@@ -208,9 +208,6 @@ public class CreateScene : MonoBehaviour
         Color currentColor = Color.Lerp(Color.blue, Color.yellow, dayFactor);
         celestialLight.color = currentColor;
         celestialObject.GetComponent<Renderer>().material.SetColor("_BaseColor", currentColor);
-
-        // makes light less intense at night
-        // celestialLight.intensity = Mathf.Lerp(0.2f, 3f, dayFactor);
     }
 
 }

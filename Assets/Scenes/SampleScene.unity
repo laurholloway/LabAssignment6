@@ -206,13 +206,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.38789523, y: -0, z: -0, w: 0.9217035}
-  m_LocalPosition: {x: 0, y: 30.45, z: -33.95}
+  m_LocalRotation: {x: 0.067822106, y: -0, z: -0, w: 0.9976975}
+  m_LocalPosition: {x: 0, y: 18.89, z: -57.26}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 45.647, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 7.778, y: 0, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -269,6 +269,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 587ea626f895dc5409d62f3ef3dab71b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pyramidBaseSize: 6
+  numberOfTrees: 30
+  forestSpread: 20
+  celestialOrbitSpeed: 10
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
